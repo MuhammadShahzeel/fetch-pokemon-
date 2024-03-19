@@ -1,0 +1,48 @@
+img {
+  display: none;
+  width: 300px;
+  margin-top: 30px;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* padding-top: 200px; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#pokemonName {
+  width: 80vw;
+}
+button {
+  margin-top: 20px;
+  width: 150px;
+}
+
+#spinner {
+  margin-top: 20px;
+  display: none;
+}
+#notFound {
+  margin-top: 30px;
+  display: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+#text{
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
